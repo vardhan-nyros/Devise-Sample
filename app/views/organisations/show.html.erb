@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @organisation.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @organisation.content %>
+</p>
+
+<p>
+  <b>Website url:</b>
+  <%= @organisation.website_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_organisation_path(@organisation) %> |
+<%= link_to 'Back', organisations_path %>
